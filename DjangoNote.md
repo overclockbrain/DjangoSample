@@ -41,6 +41,14 @@ python manage.py sqlmigrate polls 0001
 python manage.py createsuperuser
 
 ~~~
+## サイトの閲覧方法
+~~~url
+#python manage.py runserverを実行していると仮定する
+#トップページ
+http://localhost:8000/polls 
+#管理者ページ
+http://localhost:8000/admin
+~~~
 まああとはサイトを参考にコピペ作業していくわ  
 > メモ
 - mysite(一番上のdir)のsettings.pyで好き放題設定できる
