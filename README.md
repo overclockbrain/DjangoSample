@@ -1,1 +1,1 @@
-# DjangoSample
+詳しいことはDjangoNoteに記述してあるので参照してほしい
